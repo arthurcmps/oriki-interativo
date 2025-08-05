@@ -1,1 +1,71 @@
 
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oríkì Interativo</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Oríkì Interativo</h1>
+        <p>Gere louvores únicos baseados em temas ancestrais</p>
+    </header>
+    <main>
+        <section id="config">
+            <label for="tema">Escolha um orixá:</label>
+            <select id="tema">
+                <optgroup label="Início do Xirê">
+                    <option value="exu">Exu</option>
+                </optgroup>
+                <optgroup label="Orixás Guerreiros e Caçadores">
+                    <option value="ogum">Ogum</option>
+                    <option value="oxossi">Oxóssi</option>
+                    <option value="ossaim">Ossaim</option>
+                </optgroup>
+                <optgroup label="Orixás da Cura e Transformação">
+                    <option value="obaluaie">Obaluaiê</option>
+                    <option value="omolu">Omolu</option>
+                    <option value="oxumare">Oxumarê</option>
+                </optgroup>
+                <optgroup label="Orixás Anciões e das Águas">
+                    <option value="nana">Nanã</option>
+                    <option value="iemanja">Iemanjá</option>
+                    <option value="oxum">Oxum</option>
+                </optgroup>
+                <optgroup label="Orixás do Vento, Fogo e Justiça">
+                    <option value="iansa">Iansã</option>
+                    <option value="xango">Xangô</option>
+                </optgroup>
+                <optgroup label="Orixás Jovens e Guerreiras">
+                    <option value="logunede">Logunedé</option>
+                    <option value="ewa">Ewá</option>
+                    <option value="oba">Obá</option>
+                </optgroup>
+                <optgroup label="Orixás Funfun (Brancos)">
+                    <option value="oxala">Oxalá</option>
+                </optgroup>
+            </select>
+
+            <label for="tom">Escolha um tom:</label>
+            <select id="tom">
+                <option value="poetico">Poético</option>
+                <option value="cerimonial">Cerimonial</option>
+                <option value="infantil">Infantil</option>
+            </select>
+
+            <button id="gerar">Gerar Oríkì</button>
+        </section>
+        <section id="resultado">
+            <h2>Seu Oríkì:</h2>
+            <div id="oriki"></div>
+            <button id="favoritar">Favoritar</button>
+        </section>
+    </main>
+    <footer>
+        <p>Feito com axé por Obafemi Sankofa</p>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>

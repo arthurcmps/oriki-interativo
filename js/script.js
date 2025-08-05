@@ -40,7 +40,7 @@ const orikis = {
       "Guardião da mata, canta o vento que corre entre as folhas."
     ],
     cerimonial: [
-      "Laroyê Oxóssi! Caçador das matas, senhor da fartura e da caça.",
+      "Okê Arô Oxóssi! Caçador das matas, senhor da fartura e da caça.",
       "Oxóssi que traz alimento e protege a vida na floresta sagrada.",
       "Oxóssi que domina a selva e guia os que seguem seu caminho."
     ],

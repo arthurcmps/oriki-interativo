@@ -10,10 +10,14 @@
 }
 
 body.dark-mode {
-  --bg-color: #121212;
+  background-color: #121212;
+  background-image: 
+    linear-gradient(rgba(18,18,18,0.95), rgba(18,18,18,0.95)),
+    url("https://www.transparenttextures.com/patterns/paper-fibers.png");
+  background-repeat: repeat;
   --text-color: #f1f1f1;
   --card-bg: #1e1e1e;
-  --accent-color: #d4af37; /* dourado claro */
+  --accent-color: #d4af37;
   --border-color: #333;
 }
 
@@ -26,10 +30,12 @@ body {
   line-height: 1.7;
   margin: 0;
   background-color: var(--bg-color);
+  background-image: url("https://www.transparenttextures.com/patterns/paper-fibers.png");
+  background-repeat: repeat;
   color: var(--text-color);
   transition: background 0.3s, color 0.3s;
   padding: 1.5rem;
-}
+}}
 
 /* =========================
    HEADER
